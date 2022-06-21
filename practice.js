@@ -4,7 +4,20 @@
 // if and else statements can only have 1 else statement inside the {brackets}. Else if can have as many as you want
 // Operatrer precedence ((!) Not has a higher precednece than && and ||) && has a higher precedence than
 //|| but these can be altered with ()//
-
+//The switch statement is used to perform different actions based on different conditions.
+//     ex. switch (new Date().getDay()) {
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//      day = "Tuesday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
 
 let rating = 2 
 
