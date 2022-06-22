@@ -54,6 +54,61 @@
 // 	console.log(i);
 // }
 
+//Classes are used to create objects (Think of classes as the blueprints used to create objects of a certain 'type'
+//Encapsulation is a key principle of Object Orieneted programming.
+//Encapsulation is the concept of bundling data (properties/attributes) and related behavior (methods) within an object.
+
+//example of encapsulating data (attributes/properties) & behavior (methods)
+// const cohort = {
+//   id: 'SEIR Flex Madeline',
+//   students: ['Diana', 'Julio', 'Cory'],
+//   instructors: ['Arthur', 'Nando', 'Teo', 'Sean'],
+//   addStudent: function(name) {
+//     name = name[0].toUpperCase() + name.substr(1).toLowerCase();
+//     this.students.push(name);
+//   },
+//   pickRandomStudent: function() {
+//     const rndIdx = Math.floor(Math.random() * this.students.length);
+//     return this.students[rndIdx];
+//   }
+// };
+
+//When creating a class FIRST LETTER MUST BE CAPITALIZED
+//Instantiating a class
+// instance: An object created by a class
+// instantiate: We instantiate a class to create an object
+// instantiation: The process of creating an object
+
+//In JS, we create objects using the newkeyword when invoking (instantiating) the class:
+//example
+// let Rav4 = new Vehicle()
+//let Corolla = new Vehicle()
+// class Vehicle {
+// }
+
+// The constructor Method
+// *When a class is being instantiated, the special constructormethod in the class will automatically be called:*
+//example
+// class Vehicle {
+// 	constructor(vin, make) {
+// 		this.vin = vin;
+// 		this.make = make;
+	// return is not needed
+	// because the new object is returned by default
+// 	}
+// }
+// const plane = new Vehicle('X123Y', 'Boeing');
+// The purpose of the constructormethod is to initialize the data properties of the new object being created (represented by this).
+// If there are no properties to initialize, the constructormethod is optional (a hidden default constructor is called).
+
+// Defining Methods in a Class
+// There are two types of methods that can be added to a class:
+// Prototype (instance) methods
+// Static (class) methods
+
+// Overriding Methods
+// Thanks to another OOP principle called inheritance, subclasses inherit methods from their parent classes.
+// JS is different from class-based languages like Java or Python in that its inheritance implementation is prototype-based.
 
 let rating = 2 
 
